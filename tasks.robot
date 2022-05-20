@@ -47,7 +47,6 @@ Log in
     Input Text    //input[@autocomplete="current-password"][1]    ${secret_credentials}[password]
     Click Element    //span[text()='Next'][1]
     Sleep    4
-    Click Element    id:searcher
 
 Get The Secret Credentials
     ${secret}=    Get Secret    account_creds
